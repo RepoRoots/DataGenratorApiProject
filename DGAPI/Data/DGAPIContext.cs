@@ -18,5 +18,5 @@ using DbGenratorWithBogus.DbModels;
 
         public DbSet<OrderDetail> OrderDetails { get; set; } = default!;
 
-    public DbSet<Product> Products { get; set; } = default!;
+        public DbSet<Product> Products { get; set; } = default!;
     }
